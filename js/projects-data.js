@@ -23,9 +23,18 @@ const PROJECTS = [
     title: "FSM Cache Simulation",
     category: "Team",
     role: "",
-    tags: ["C++", "Raylib", "Computer Architecture"],
+    tags: ["C++", "Computer Architecture"],
     description:
       "A cache controller simulation built around a finite state machine, with CPU, Memory, and CacheController modules and a custom test suite. CSE 4305 coursework.",
+    link: ""
+  },
+  {
+    title: "LocalO",
+    category: "Team",
+    role: "Posts, comments, and likes system",
+    tags: ["C++", "OOP", "Terminal-based"],
+    description:
+      "A terminal-based social media platform inspired by Facebook — user posts, friend connections, pages, and a messenger system. Built as an OOP course project applying core object-oriented principles (encapsulation, inheritance, polymorphism) throughout the system design.",
     link: ""
   },
   {
@@ -59,7 +68,7 @@ const PROJECTS = [
     title: "DLD Stopwatch Timer",
     category: "Hardware",
     role: "",
-    tags: ["Proteus", "Digital Logic", "EEE 4483"],
+    tags: ["Proteus", "Digital Logic"],
     description:
       "A stopwatch timer circuit designed and simulated in Proteus. Team project and coursework.",
     link: ""

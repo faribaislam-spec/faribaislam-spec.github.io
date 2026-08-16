@@ -18,6 +18,7 @@
     <ul class="nav-links">
       <li><a href="index.html" aria-current="page">Home</a></li>
       <li><a href="projects.html">Projects</a></li>
+      <li><a href="index.html#research">Research</a></li>
       <li><a href="index.html#contact">Contact</a></li>
     </ul>
   </div>
@@ -37,11 +38,11 @@
   </span>
   <div class="wrap">
     <span class="eyebrow">CSE Student · Islamic University of Technology</span>
-    <h1>Building things that <span class="accent">look after people.</span></h1>
+    <h1>Hi, I'm Fariba — I like figuring out <span class="accent">how things work,</span> then building something useful with it.</h1>
     <p class="hero-sub">
-      I'm a Computer Science and Engineering student who likes finding the shortest path
-      between an idea and something genuinely useful — whether that's an app, an algorithm,
-      or a circuit.
+      Computer Science and Engineering student, still finding my way through
+      what I want to build next. Along the way: apps, algorithms, circuits,
+      and the occasional deep dive into whatever's caught my attention.
     </p>
     <div class="hero-links">
       <a href="projects.html" class="btn btn-primary">See my projects</a>
@@ -110,6 +111,16 @@
   </div>
 </section>
 
+<section id="research">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Research</span>
+      <h2>Publications</h2>
+    </div>
+    <div class="card-grid" id="research-list"></div>
+  </div>
+</section>
+
 <section id="contact">
   <div class="wrap">
     <div class="contact">
@@ -131,10 +142,12 @@
 </footer>
 
 <script src="js/projects-data.js"></script>
+<script src="js/research-data.js"></script>
 <script src="js/main.js"></script>
 <script>
   drawRoute("route-hero", 5);
   renderProjects("highlight-projects", PROJECTS.slice(0, 3));
+  renderResearch("research-list", RESEARCH);
 </script>
 </body>
 </html>

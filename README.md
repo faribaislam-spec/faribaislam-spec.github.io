@@ -1,68 +1,43 @@
-# Fariba Islam — Portfolio Website
+# AI Tool Usage
 
-Personal portfolio website showcasing my projects, coursework and research as a CSE student at Islamic University of Technology (IUT).
+This portfolio was built with help from **Claude** (Anthropic). Below is the prompt history from the conversation used to plan, write, and build this site.
 
-🔗 **Live site:** https://faribaislam-spec.github.io/
+## Tools Used
 
-## About Me
+- **Claude** (Anthropic, claude.ai) — used for planning the site structure, drafting and revising README content, writing project descriptions, generating the HTML/CSS/JS code for the site, and compiling this usage log.
 
-Hi! I'm Fariba, a Computer Science and Engineering student at the Islamic University of Technology (IUT), Bangladesh. I enjoy learning how technology works and more importantly, finding ways to use it to create things that are actually useful.
+## Prompt History
 
-I'm interested in software development, problem-solving and exploring different areas of technology. I've worked with C, C++, Java, Python and Android development. Alongside, I'm always trying to learn something new and improve my skills through projects and hands-on experience.
+1. Shared the assignment brief and asked for step-by-step instructions on how to complete and submit it.
+2. Asked whether a co-authored report could be included in the portfolio.
+3. Specified the desired site style: "visually expressive, formal but still customized and unique, and extendable over the years."
+4. Asked what the GitHub repository README should contain.
+5. Asked what the GitHub repository should be named.
+6. Asked what the repository description should be.
+7. Requested the full README content.
+8. Provided GitHub profile screenshot to confirm username (`faribaislam-spec`) for naming the repo correctly.
+9. Asked for the README again with the confirmed username.
+10. Asked for the repository description again.
+11. Requested the full README text.
+12. Asked whether previous README sections (Academic Achievements, License, etc.) were actually needed, and got a breakdown of required vs. optional sections per the assignment.
+13. Provided details on an early project, "Pika Run" (a running game with mini-games and coin collection), to be added to the README.
+14. Provided a GitHub repository screenshot for a project, "FSM Cache Simulation," built with Raylib and C, plus mentioned a "DLD Stopwatch Timer" project made in Proteus.
+15. Asked whether the FSM Cache Simulation and DLD Stopwatch Timer projects should be added to the README.
+16. Clarified that RunGirlRun was a group project and Mayer Doa was analysis-only with no implementation, prompting a reorganization of the project categories.
+17. Clarified that Pika Run was also a group project.
+18. Requested only the "Projects" section of the README be regenerated with the updated structure.
+19. Provided a fully rewritten version of the README content (About Me, Contact, Projects, etc.) and asked for it to be checked.
+20. Asked for the projects to be categorized as Team, Individual, etc.
+21. Provided the final personal content for the README (About Me bio, contact details, finalized project list) and asked for the full file.
+22. Asked for the full README again without changing any of the content provided.
+23. Asked what to do next.
+24. Answered follow-up questions on site build approach (plain HTML/CSS/JS vs. Jekyll), visual mood (soft gradients, illustrative accents), and page structure (left the page-count decision to Claude).
+25. Requested a recommendation on build approach when unsure, prompting Claude to choose plain HTML/CSS/JS with a multi-page structure (Home + Projects) and build the initial site (HTML, CSS, JS, README, AI-USAGE template).
+26. Shared several color-palette and design-inspiration screenshots (plum purple/mauve swatches, sky blue, meadow green, and example portfolio site layouts) and asked for them to be used as the site's theme, prompting a redesign of the color system (category-based accent colors) and hero layout (sparkle/blob accents, editorial-style type).
+27. Asked where to place the generated files in the repository, and asked for the AI usage log to be compiled directly from the conversation instead of manually copying prompts.
 
-Outside of coding, I enjoy exploring creative things, designing and experimenting with ideas and spending time with the people and pets I care about. I also love learning and travelling to about new places, trying new things and occasionally getting completely absorbed in a random topic that catches my interest.
+## Notes
 
-I'm still figuring out exactly where I want my journey in tech to take me, but I'm excited to keep learning, building and growing along the way.
-
-## Contact
-
-Email: faribaexpo200@gmail.com
-GitHub: [@faribaislam-spec](https://github.com/faribaislam-spec)
-LinkedIn: [www.linkedin.com/in/fariba-islam-48165742a](https://www.linkedin.com/in/fariba-islam-48165742a)
-
-## Featured Projects
-
-### Team Projects
-
-- **RunGirlRun** — Android women's safety app (Java, Firebase, SQLite) — SOS emergency messaging to emergency contacts and nearby users, safe-route navigation using Dijkstra's algorithm with dynamic safety-weighted edges, spy camera detection using magnetometer sensing, emergency contact management (add/edit/delete), safety tips browsing and area safety reporting
-- **Pika Run** — Endless running game built with Raylib and C — coin collection with obstacle-triggered mini-games that grant extra lives when solved
-- **FSM Cache Simulation** — Cache controller simulation using a finite state machine, built in C++ — CPU, Memory and CacheController modules with a custom test suite
-
-### Individual Projects
-
-- **JavaFX Chat Application** — Multi-user chat app with MySQL backend, thread-per-client server and light/dark themes
-- **JavaFX Stories App** — Instagram/Facebook-style stories feature with background image loading, auto-advance timelines and per-user story grouping
-- **Movie Scout** — JavaFX movie browsing app with DAO pattern and MySQL backend — browse movies by category, add to watch-later list
-
-### Hardware / Digital Logic
-
-- **DLD Stopwatch Timer** — Stopwatch timer circuit designed and simulated in Proteus (Team Project and Coursework)
-
-### Systems Analysis & Design *(analysis only — no implementation)*
-
-- **Mayer Doa Emergency Service** — Systems analysis project for an online + SMS-based emergency healthcare coordination platform for Dhaka Medical College Hospital — DFDs, use case diagrams, prototype mockups, and process specifications (Team Project and Coursework)
-
-*(Full write-ups, screenshots, and links live on the site itself.)*
-
-## Research & Publications
-
-- **[Report Title]** — co-authored with [Co-author names] — [one-line description of what it covers and your contribution] — [link or PDF]
-
-## Tech Stack
-
-- HTML, CSS, JavaScript
-- [Jekyll, if used]
-- Hosted on GitHub Pages
-
-## AI Tool Usage
-
-See [AI-USAGE.md](./AI-USAGE.md) for the full list of tools used and prompt history for this project.
-
-## Running Locally
-
-\```bash
-git clone https://github.com/faribaislam-spec/faribaislam-spec.github.io.git
-cd faribaislam-spec.github.io
-python3 -m http.server
-\```
-Then open `http://localhost:8000` in your browser.
+- All final wording in the About Me section and project descriptions was written and approved by Fariba Islam; Claude assisted with structuring, formatting, and code generation.
+- Design decisions (palette, typography, layout, category-color system) were proposed by Claude based on stated preferences and reference images, then reviewed and approved before implementation.
+- This log reflects the conversation used to build the site as of the date the site was last updated. If further AI-assisted changes are made later, add new entries below rather than editing the ones above.

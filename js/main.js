@@ -52,6 +52,9 @@ function renderProjects(containerId, projects) {
       const tags = p.tags
         .map((t) => `<span class="tag">${t}</span>`)
         .join("");
+      const link = p.link
+        ? `<a class="card-link" href="${p.link}" target="_blank" rel="noopener">View repository →</a>`
+        : "";
       return `
         <article class="card" data-category="${p.category}">
           <span class="card-cat">${p.category}</span>
@@ -59,6 +62,36 @@ function renderProjects(containerId, projects) {
           ${role}
           <p class="card-desc">${p.description}</p>
           <div class="tag-row">${tags}</div>
+          ${link}
+        </article>
+      `;
+    })
+    .join("");
+}
+
+// Renders research/publication entries into a container, formatted in
+// standard citation style: Author1, Author2, ... Title. Status/Journal.
+function renderResearch(containerId, papers) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+
+  container.innerHTML = papers
+    .map((p) => {
+      const authorList = p.authors
+        .map((a) =>
+          a === "Fariba Islam" ? `<strong>${a}</strong>` : a
+        )
+        .join(", ");
+      const link = p.link
+        ? `<a class="card-link" href="${p.link}" target="_blank" rel="noopener">Read paper →</a>`
+        : "";
+      return `
+        <article class="card research-card">
+          <span class="card-cat status-${p.status.replace(/\s+/g, "-").toLowerCase()}">${p.status}</span>
+          <h3>${p.title}</h3>
+          <p class="card-authors">${authorList}</p>
+          <p class="card-desc">${p.description}</p>
+          ${link}
         </article>
       `;
     })

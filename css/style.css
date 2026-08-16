@@ -186,10 +186,7 @@ p { color: var(--ink-soft); }
 .hero h1 .accent {
   font-style: italic;
   font-weight: 500;
-  background: var(--gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
+  color: var(--plum);
 }
 
 /* Sparkle accents — small four-point stars scattered near the hero */
@@ -396,6 +393,54 @@ section { padding: 64px 0; }
   border-radius: 999px;
   background: var(--gradient-soft);
   color: var(--lavender-deep);
+}
+
+.card-link {
+  margin-top: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--card-accent, var(--lavender-deep));
+  text-decoration: none;
+}
+
+.card-link:hover { text-decoration: underline; }
+
+/* ==========================================================================
+   Research cards
+   ========================================================================== */
+
+.research-card {
+  border-left: 3px solid var(--plum);
+  background: linear-gradient(180deg, var(--card) 0%, var(--mauve-soft) 220%);
+}
+
+.research-card h3 {
+  font-size: 1.15rem;
+  line-height: 1.35;
+}
+
+.card-authors {
+  font-size: 0.88rem;
+  color: var(--plum);
+  font-weight: 500;
+}
+
+.status-under-review {
+  color: var(--plum) !important;
+  background: var(--mauve-soft);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.68rem !important;
+}
+
+.status-published {
+  color: var(--accent-hardware) !important;
+  background: rgba(111, 174, 148, 0.14);
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.68rem !important;
 }
 
 .view-all {
