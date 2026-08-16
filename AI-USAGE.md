@@ -2,9 +2,11 @@
 
 This portfolio was built with help from **Claude** (Anthropic). Below is the prompt history from the conversation used to plan, write, and build this site.
 
+🔗 **Full conversation:** [https://claude.ai/chat/76cf27f8-4821-4c64-b63e-f278911ae55c](https://claude.ai/chat/76cf27f8-4821-4c64-b63e-f278911ae55c)
+
 ## Tools Used
 
-- **Claude** (Anthropic, claude.ai) — used for planning the site structure, drafting and revising README content, writing project descriptions, generating the HTML/CSS/JS code for the site, and compiling this usage log.
+- **Claude** (Anthropic, claude.ai) — used for planning the site structure, drafting and revising README content, writing project descriptions, generating the HTML/CSS/JS code for the site, troubleshooting Git/GitHub commands, and compiling this usage log.
 
 ## Prompt History
 
@@ -35,9 +37,44 @@ This portfolio was built with help from **Claude** (Anthropic). Below is the pro
 25. Requested a recommendation on build approach when unsure, prompting Claude to choose plain HTML/CSS/JS with a multi-page structure (Home + Projects) and build the initial site (HTML, CSS, JS, README, AI-USAGE template).
 26. Shared several color-palette and design-inspiration screenshots (plum purple/mauve swatches, sky blue, meadow green, and example portfolio site layouts) and asked for them to be used as the site's theme, prompting a redesign of the color system (category-based accent colors) and hero layout (sparkle/blob accents, editorial-style type).
 27. Asked where to place the generated files in the repository, and asked for the AI usage log to be compiled directly from the conversation instead of manually copying prompts.
+28. Asked what "cloned repo" meant.
+29. Asked how to actually clone the repository and add files to it, and was walked through the terminal steps.
+30. Pasted a PowerShell error (wrong directory for `cd Desktop`) and was helped through navigating to the correct folder and cloning there instead.
+31. Pasted successful `git clone` output and was guided to move into the folder and add site files.
+32. Confirmed understanding of the "copy files in, then run commands" process.
+33. Pasted `git add .` output showing line-ending warnings, and was reassured these were harmless.
+34. Pasted a successful `git commit` output; Claude flagged that CSS/JS files were committed at the top level instead of inside `css/`/`js/` subfolders and gave steps to fix the folder structure.
+35. Confirmed intent to fix the folder structure.
+36. Pasted terminal output showing the folder structure was corrected and successfully pushed to GitHub.
+37. Shared a screenshot of the GitHub Pages settings page confirming the site was live.
+38. Shared screenshots of the live site and flagged two content errors: an incorrect "Raylib" tag on FSM Cache Simulation and an incorrect "EEE 4483" tag on DLD Stopwatch Timer, and asked about adding real project links to the cards.
+39. Asked how to create a `.gitignore` file, and was given a JavaFX/Eclipse template plus PowerShell commands for creating dotfiles on Windows.
+40. Mentioned an additional project — a terminal-based OOP social media platform ("basically Facebook in terminal") built with a team, to be added to the portfolio.
+41. Provided the project's name (LocalO), confirmed it used all core OOP concepts, and specified a personal role (posts, comments, and likes system).
+42. Asked where to open the Git terminal for a JavaFX project folder, based on a screenshot of the folder contents.
+43. Pasted terminal output after initializing and committing a project, then asked how to cancel/undo it, believing it was the wrong project.
+44. Clarified the project was correct after all (Chat App) and continued the push process.
+45. Pasted a "Repository not found" push error and was walked through creating the GitHub repository first before pushing.
+46. Pasted a successful push for the Chat App project; Claude added the corresponding GitHub link to the portfolio's project data.
+47. Asked for repository names for the Movie Scout and Stories App projects.
+48. Asked for the commands to push the Movie Scout project, and was given the full `.gitignore` → `git init` → commit → GitHub repo creation → push sequence.
+49. Pasted successful terminal output for the Movie Scout push, including a `bin/` folder that was committed despite the `.gitignore`; Claude flagged this and offered an optional cleanup.
+50. Pasted terminal output for removing the `bin/` folder from tracking and pushing the cleanup commit.
+51. Asked to proceed with the same process for the Stories App.
+52. Pasted successful terminal output for the Stories App push.
+53. Pasted a batch of GitHub repository links (LocalO, FSM Cache Simulation, Stories App, Movie Scout, RunGirlRun) with project names, to be wired into the portfolio's project cards.
+54. Asked about including a co-authored research paper that is still under review.
+55. Confirmed wanting the research paper added to the website itself (not just the README).
+56. Provided the paper's title and full author list via screenshot, plus a screenshot showing the target citation format, prompting Claude to build a dedicated Research section on the site (data file, styled cards, "Under review" status badge, nav link).
+57. Requested the updated AI-USAGE.md file, including a link to this conversation.
+58. Changed the hero headline and accent styling to feel less templated/AI-generated and more personal.
+59. Asked for the git commands to push the latest batch of updated files, then worked through a file-renaming issue (Windows appended "(1)"/"(2)" suffixes instead of overwriting) before successfully committing and pushing.
+60. Pasted an older, incomplete version of this file and asked whether it was correct and to add the conversation link — prompted this update to the full, current version.
+61. Asked for this content in copy-pasteable plain text instead of a downloadable file.
 
 ## Notes
 
 - All final wording in the About Me section and project descriptions was written and approved by Fariba Islam; Claude assisted with structuring, formatting, and code generation.
 - Design decisions (palette, typography, layout, category-color system) were proposed by Claude based on stated preferences and reference images, then reviewed and approved before implementation.
+- Claude also assisted with Git/GitHub troubleshooting (folder structure fixes, `.gitignore` setup, resolving push errors) while pushing individual project repositories.
 - This log reflects the conversation used to build the site as of the date the site was last updated. If further AI-assisted changes are made later, add new entries below rather than editing the ones above.
