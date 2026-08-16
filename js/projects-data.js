@@ -8,7 +8,7 @@ const PROJECTS = [
     tags: ["Java", "Android", "Firebase", "SQLite"],
     description:
       "An Android women's safety app. SOS emergency messaging to emergency contacts and nearby users, safe-route navigation using Dijkstra's algorithm with dynamic safety-weighted edges, spy camera detection using magnetometer sensing, emergency contact management, safety tips browsing, and area safety reporting.",
-    link: ""
+    link: "https://github.com/faribaislam-spec/VP_Proj"
   },
   {
     title: "Pika Run",
@@ -26,7 +26,7 @@ const PROJECTS = [
     tags: ["C++", "Computer Architecture"],
     description:
       "A cache controller simulation built around a finite state machine, with CPU, Memory, and CacheController modules and a custom test suite. CSE 4305 coursework.",
-    link: ""
+    link: "https://github.com/Shira-yuki23/FSM_Cache_simulation-"
   },
   {
     title: "LocalO",
@@ -35,7 +35,7 @@ const PROJECTS = [
     tags: ["C++", "OOP", "Terminal-based"],
     description:
       "A terminal-based social media platform inspired by Facebook — user posts, friend connections, pages, and a messenger system. Built as an OOP course project applying core object-oriented principles (encapsulation, inheritance, polymorphism) throughout the system design.",
-    link: ""
+    link: "https://github.com/sabiha-cyber/Proj_oop"
   },
   {
     title: "JavaFX Chat Application",
@@ -44,7 +44,7 @@ const PROJECTS = [
     tags: ["Java", "JavaFX", "MySQL"],
     description:
       "A multi-user chat application with a MySQL backend, thread-per-client server architecture, and light/dark themes.",
-    link: ""
+    link: "https://github.com/faribaislam-spec/javafx-chat-app"
   },
   {
     title: "JavaFX Stories App",
@@ -53,7 +53,7 @@ const PROJECTS = [
     tags: ["Java", "JavaFX", "Multithreading"],
     description:
       "An Instagram/Facebook-style stories feature with background image loading, auto-advancing timelines, and per-user story grouping.",
-    link: ""
+    link: "https://github.com/faribaislam-spec/javafx-stories-app"
   },
   {
     title: "Movie Scout",
@@ -62,7 +62,7 @@ const PROJECTS = [
     tags: ["Java", "JavaFX", "MySQL", "DAO Pattern"],
     description:
       "A movie browsing app with a DAO pattern and MySQL backend. Browse movies by category and add titles to a watch-later list.",
-    link: ""
+    link: "https://github.com/faribaislam-spec/javafx-movie-scout"
   },
   {
     title: "DLD Stopwatch Timer",
