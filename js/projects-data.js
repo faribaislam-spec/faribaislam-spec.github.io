@@ -4,7 +4,7 @@ const PROJECTS = [
   {
     title: "RunGirlRun",
     category: "Team",
-    role: "Backend & algorithms",
+    role: "",
     tags: ["Java", "Android", "Firebase", "SQLite"],
     description:
       "An Android women's safety app. SOS emergency messaging to emergency contacts and nearby users, safe-route navigation using Dijkstra's algorithm with dynamic safety-weighted edges, spy camera detection using magnetometer sensing, emergency contact management, safety tips browsing, and area safety reporting.",
@@ -31,7 +31,7 @@ const PROJECTS = [
   {
     title: "LocalO",
     category: "Team",
-    role: "Posts, comments, and likes system",
+    role: "",
     tags: ["C++", "OOP", "Terminal-based"],
     description:
       "A terminal-based social media platform inspired by Facebook — user posts, friend connections, pages, and a messenger system. Built as an OOP course project applying core object-oriented principles (encapsulation, inheritance, polymorphism) throughout the system design.",
