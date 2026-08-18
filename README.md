@@ -43,7 +43,7 @@ LinkedIn: [www.linkedin.com/in/fariba-islam-48165742a](https://www.linkedin.com/
 
 - **Mayer Doa Emergency Service** — Systems analysis project for an online + SMS-based emergency healthcare coordination platform for Dhaka Medical College Hospital — DFDs, use case diagrams, prototype mockups, and process specifications (Team Project and Coursework)
 
-*(Full write-ups, screenshots, and links live on the site itself.)*
+*(Full write-ups and links live on the site itself.)*
 
 ## Research & Publications
 
