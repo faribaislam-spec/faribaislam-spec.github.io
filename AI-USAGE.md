@@ -92,4 +92,4 @@ This portfolio was built with help from **Claude** (Anthropic). Below is the pro
 - All final wording in the About Me section and project descriptions was written and approved by Fariba Islam; Claude assisted with structuring, formatting, and code generation.
 - Design decisions (palette, typography, layout, category-color system) were proposed by Claude based on stated preferences and reference images, then reviewed and approved before implementation.
 - Claude also assisted with Git/GitHub troubleshooting (folder structure fixes, `.gitignore` setup, resolving push errors) while pushing individual project repositories.
-- This log reflects the conversation used to build the site as of the date the site was last updated. If further AI-assisted changes are made later, add new entries below rather than editing the ones above.
+- This log reflects the conversation used to build the site as of the date the site was last updated. If further AI-assisted changes are made later,  new entries would be added below rather than editing the ones above.
