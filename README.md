@@ -51,7 +51,8 @@ LinkedIn: [www.linkedin.com/in/fariba-islam-48165742a](https://www.linkedin.com/
 
 ## Tech Stack
 
-- HTML, CSS, JavaScript (no framework/build step)
+- HTML, CSS, JavaScript (no framework or build tooling)
+- Google Fonts (Fraunces, Inter, IBM Plex Mono) loaded via CDN
 - Hosted on GitHub Pages
 
 ## AI Tool Usage
