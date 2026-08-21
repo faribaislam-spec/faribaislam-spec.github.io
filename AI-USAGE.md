@@ -2,7 +2,7 @@
 
 This portfolio was built with help from **Claude** (Anthropic). Below is the prompt history from the conversation used to plan, write, and build this site.
 
-🔗 **Full conversation:** [https://claude.ai/chat/76cf27f8-4821-4c64-b63e-f278911ae55c](https://claude.ai/chat/76cf27f8-4821-4c64-b63e-f278911ae55c)
+🔗 **Full conversation:** https://claude.ai/share/637c905c-a9bd-4a6d-a0b7-b881e59fc4ed
 
 ## Tools Used
 
