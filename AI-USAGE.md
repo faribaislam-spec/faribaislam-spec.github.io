@@ -2,7 +2,7 @@
 
 This portfolio was built with help from **Claude** (Anthropic). Below is the prompt history from the conversation used to plan, write, and build this site.
 
-🔗 **Full conversation:** https://claude.ai/share/637c905c-a9bd-4a6d-a0b7-b881e59fc4ed
+🔗 **Full conversation:** [https://claude.ai/chat/76cf27f8-4821-4c64-b63e-f278911ae55c](https://claude.ai/chat/76cf27f8-4821-4c64-b63e-f278911ae55c)
 
 ## Tools Used
 
@@ -86,10 +86,12 @@ This portfolio was built with help from **Claude** (Anthropic). Below is the pro
 74. Asked Claude to do a full consistency check across the README, projects data, and research data files, which surfaced one minor wording inconsistency in the Tech Stack section (README said "no framework/build step" despite Google Fonts being loaded via CDN).
 75. Asked for that inconsistency to be fixed.
 76. Asked for the full updated AI-USAGE.md and Word document, with the complete prompt history of this conversation.
+77. Pointed out that the JavaFX projects (Chat App, Stories App, Movie Scout) weren't labeled as lab coursework anywhere, prompting updates to both the README and the site's project data to reflect this.
+78. Asked for all updated files (README, projects data, HTML files with bumped cache version) along with the updated AI usage log, in both formats.
 
 ## Notes
 
 - All final wording in the About Me section and project descriptions was written and approved by Fariba Islam; Claude assisted with structuring, formatting, and code generation.
 - Design decisions (palette, typography, layout, category-color system) were proposed by Claude based on stated preferences and reference images, then reviewed and approved before implementation.
 - Claude also assisted with Git/GitHub troubleshooting (folder structure fixes, `.gitignore` setup, resolving push errors) while pushing individual project repositories.
-- This log reflects the conversation used to build the site as of the date the site was last updated. If further AI-assisted changes are made later,  new entries would be added below rather than editing the ones above.
+- This log reflects the conversation used to build the site as of the date the site was last updated. If further AI-assisted changes are made later, add new entries below rather than editing the ones above.
