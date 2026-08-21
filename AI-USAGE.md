@@ -70,7 +70,22 @@ This portfolio was built with help from **Claude** (Anthropic). Below is the pro
 58. Changed the hero headline and accent styling to feel less templated/AI-generated and more personal.
 59. Asked for the git commands to push the latest batch of updated files, then worked through a file-renaming issue (Windows appended "(1)"/"(2)" suffixes instead of overwriting) before successfully committing and pushing.
 60. Pasted an older, incomplete version of this file and asked whether it was correct and to add the conversation link — prompted this update to the full, current version.
-61. Asked for this content in copy-pasteable plain text instead of a downloadable file.
+61. Asked for the AI-USAGE.md content in copy-pasteable plain text instead of a downloadable file.
+62. Asked how to run/preview the updated site, both locally and live.
+63. Asked where to find GitHub links for projects, both in the code and on the live site, and which projects still lacked links.
+64. Shared a screenshot showing project cards without visible repository links and asked why, prompting Claude to identify that the live `projects-data.js` file was outdated and provide the corrected full file to paste directly into GitHub.
+65. Asked to remove the "role" subtitles from the Team Projects README section, then confirmed wanting the same change reflected on the live site's project cards.
+66. Reported that the role text was still showing on the live site after the update; worked through a troubleshooting sequence (checking GitHub Actions deployment status, verifying the raw served file, and eventually identifying that the updated `index.html`/`projects.html` — with cache-busting `?v=2` parameters — had not actually been pushed) before successfully resolving it.
+67. Asked Claude to check whether every condition from the original assignment brief had been fulfilled by the finished site.
+68. Confirmed the site was complete and asked what needed to be submitted.
+69. Asked for the AI usage file to submit, then asked whether it should be submitted as a separate document or left in the repository, prompting a discussion of the assignment's exact wording on this requirement.
+70. Asked for both the submission links and the AI-USAGE.md file together, ready to submit.
+71. Asked how to submit links in Google Classroom.
+72. Asked for the AI-USAGE.md file as a Word document (.docx).
+73. Asked Claude to give the chat link again.
+74. Asked Claude to do a full consistency check across the README, projects data, and research data files, which surfaced one minor wording inconsistency in the Tech Stack section (README said "no framework/build step" despite Google Fonts being loaded via CDN).
+75. Asked for that inconsistency to be fixed.
+76. Asked for the full updated AI-USAGE.md and Word document, with the complete prompt history of this conversation.
 
 ## Notes
 
