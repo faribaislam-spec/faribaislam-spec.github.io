@@ -41,7 +41,7 @@ const PROJECTS = [
     title: "JavaFX Chat Application",
     category: "Individual",
     role: "",
-    tags: ["Java", "JavaFX", "MySQL"],
+    tags: ["Java", "JavaFX", "MySQL", "Lab Coursework"],
     description:
       "A multi-user chat application with a MySQL backend, thread-per-client server architecture, and light/dark themes.",
     link: "https://github.com/faribaislam-spec/javafx-chat-app"
@@ -50,7 +50,7 @@ const PROJECTS = [
     title: "JavaFX Stories App",
     category: "Individual",
     role: "",
-    tags: ["Java", "JavaFX", "Multithreading"],
+    tags: ["Java", "JavaFX", "Multithreading", "Lab Coursework"],
     description:
       "An Instagram/Facebook-style stories feature with background image loading, auto-advancing timelines, and per-user story grouping.",
     link: "https://github.com/faribaislam-spec/javafx-stories-app"
@@ -59,7 +59,7 @@ const PROJECTS = [
     title: "Movie Scout",
     category: "Individual",
     role: "",
-    tags: ["Java", "JavaFX", "MySQL", "DAO Pattern"],
+    tags: ["Java", "JavaFX", "MySQL", "DAO Pattern", "Lab Coursework"],
     description:
       "A movie browsing app with a DAO pattern and MySQL backend. Browse movies by category and add titles to a watch-later list.",
     link: "https://github.com/faribaislam-spec/javafx-movie-scout"
